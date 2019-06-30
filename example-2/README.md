@@ -8,8 +8,8 @@ This repo contains some example code and some tasks as a simple intro to unit te
 
 1. Make sure you've forked the parent repo and cloned your fork, as described in [Example 1](../example-1/README.md)
 2. From the cloned `workshop-ltc` directory on your machine, run `cd example-2` to navigate into this example's directory
-3. Run `yarn install` from the project root directory
-4. Install http-server and run `http-server -p 1234` from the project root directory
+3. Run `yarn install`
+4. Install http-server and run `http-server -p 1234`
 5. Visit http://localhost:1234 in your browser to view the project
 
 ### Learn & Do
