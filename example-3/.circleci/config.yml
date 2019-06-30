@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cypress/base:8
+        environment:
+          TERM: xterm # this enables colors in the output
+    working_directory: ~/app
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
+            - v1-deps-{{ .Branch }}
+            - v1-deps
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
+      - save_cache:
+          key: v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/.cache  # cache both yarn and Cypress
+      - run:
+          name: Unit Tests
+          command: yarn test
+      - run:
+          name: Start Server
+          command: ./node_modules/forever/bin/forever start ./node_modules/http-server/bin/http-server -p 1234
+          background: true
+      - run:
+          name: Integration Tests
+          command: $(yarn bin)/cypress run

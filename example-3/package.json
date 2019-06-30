@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cypress": "^3.2.0",
+    "forever": "^1.0.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>[/\\\\](cypress|node_modules)[/\\\\]"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

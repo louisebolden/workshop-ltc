@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "http-server": "./node_modules/.bin/http-server -a localhost -p 8000"
+  }
+}
