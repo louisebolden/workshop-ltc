@@ -1,6 +1,6 @@
 # Learning to Code vs Coding at Work
 
-## Demo/Example Repo 3
+## Demo/Example 3
 
 This repo contains some example code and some tasks as an intro to continuous integration.
 

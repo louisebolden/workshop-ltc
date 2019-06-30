@@ -1,6 +1,6 @@
 # Learning to Code vs Coding at Work
 
-## Demo/Example Repo 4
+## Demo/Example 4
 
 This repo contains an example frontend app and an example backend app, to demo a separation of concerns and communication between the two.
 

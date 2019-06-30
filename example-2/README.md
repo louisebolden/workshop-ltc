@@ -1,6 +1,6 @@
 # Learning to Code vs Coding at Work
 
-## Demo/Example Repo 2
+## Demo/Example 2
 
 This repo contains some example code and some tasks as a simple intro to unit testing.
 
