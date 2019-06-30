@@ -6,8 +6,8 @@ This repo contains an example frontend app and an example backend app, to demo a
 
 ### To Set Up This Project On Your Local Machine
 
-1. Fork this example project and then clone it with `git clone git@github.com:YOUR_USERNAME_HERE/workshop-ltc-4.git`
-2. Run `cd workshop-ltc-4` to navigate into the project root directory
+1. Make sure you've forked the parent repo and cloned your fork, as described in [Example 1](../example-1/README.md)
+2. From the cloned `workshop-ltc` directory on your machine, run `cd example-4` to navigate into this example's directory
 
 #### To Run The Backend App
 
