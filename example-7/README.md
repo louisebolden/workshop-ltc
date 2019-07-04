@@ -7,7 +7,7 @@ If you want to try this example code, you'll need an AWS account. **Please note 
 Head over to [the AWS site](https://aws.amazon.com) if you'd like to register an account and try out the example code below. You'll need some access credentials, so head straight to [the AWS IAM service page](https://console.aws.amazon.com/iam/home#/users) to create a user. To start with, it's easiest to give this user full permissions - but **make sure to destroy this user once you're finished with the example below**. Later, you can create a new user with only the permissions required, which is a little more fiddly but less risky.
 
 ```
-# in ./.aws/credentials
+# ./.aws/credentials
 
 [default]
 aws_access_key_id = abc123
